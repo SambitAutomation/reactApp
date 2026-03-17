@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import logo2 from './Node.js_logo.svg.webp';
 import './App.css';
 
 function App() {
@@ -6,8 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo2} className="App-logo2"/>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Server running
         </p>
         <a
           className="App-link"
