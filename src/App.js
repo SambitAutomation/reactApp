@@ -1,11 +1,20 @@
 import logo from './logo.svg';
 import logo2 from './Node.js_logo.svg.webp';
 import './App.css';
+import './Style.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+
+    <button className='btn btn-danger'>LOGIN</button>
+
+    <div className='row'>
+      <div className='col extra'>A</div>
+      <div className='col extra'>B</div>
+      <div className='col extra'>C</div>
+    </div>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <img src={logo2} className="App-logo2"/>
         <p>
@@ -19,7 +28,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
