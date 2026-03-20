@@ -1,8 +1,11 @@
+import {MyComponent2}  from "./MyComponent2";
+
 function MyComponent(){
     return(
-        <div>
+        <>
             <h1>My new Component</h1>
-        </div>
+            <MyComponent2 />
+        </>
     )
 }
 
