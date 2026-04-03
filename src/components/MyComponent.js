@@ -5,6 +5,7 @@ function MyComponent(){
         <>
             <h1>My new Component</h1>
             <MyComponent2 />
+            <MyClassComponent2 />
         </>
     )
 }
